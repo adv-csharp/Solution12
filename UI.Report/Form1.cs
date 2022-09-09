@@ -31,5 +31,10 @@ namespace UI.Report
 
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            StiOptions.Viewer.RightToLeft = StiRightToLeftType.Yes;
+        }
     }
 }
