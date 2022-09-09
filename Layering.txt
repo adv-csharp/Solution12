@@ -12,4 +12,15 @@ Layering
 			project web api
 			project react/angular
 
+Model
+	Domain Model: POCO, map kardan table db be code c#
+	Data Transfer Object - DTO; ferstadan data bayne layer haye mokhtalef
 	
+	View Model: Ferestadan data az BL be UI
+	Input Model: Ferestadan data az UI be BL
+	
+		View Model: baraye hame UI be BL va hame BL be UI
+
+	DDD:
+		RequestModel
+		ResponseModel
