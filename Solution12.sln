@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D079DDF-BD3F-4D01-B66C-933367615426}"
 	ProjectSection(SolutionItems) = preProject
 		Layering.txt = Layering.txt
+		Notes.txt = Notes.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{DCC6123A-9D67-4D02-8F26-81A6A5F03EE2}"
@@ -19,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{CA9B68E1-DFEC-4702-9A1D-7DE312901F5E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{503D268C-EB8F-40B6-AF0A-934CEE1BF4BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.Report", "UI.Report\UI.Report.csproj", "{61AABB10-5BEC-4E67-9957-F379E6BA1FA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +49,10 @@ Global
 		{503D268C-EB8F-40B6-AF0A-934CEE1BF4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{503D268C-EB8F-40B6-AF0A-934CEE1BF4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{503D268C-EB8F-40B6-AF0A-934CEE1BF4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61AABB10-5BEC-4E67-9957-F379E6BA1FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AABB10-5BEC-4E67-9957-F379E6BA1FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AABB10-5BEC-4E67-9957-F379E6BA1FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61AABB10-5BEC-4E67-9957-F379E6BA1FA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

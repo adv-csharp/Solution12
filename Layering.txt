@@ -21,6 +21,8 @@ Model
 	
 		View Model: baraye hame UI be BL va hame BL be UI
 
-	DDD:
+	DDD - Domain Driven Design:
 		RequestModel
 		ResponseModel
+
+

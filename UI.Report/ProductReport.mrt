@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="1">
+      <ProductBO Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+        <Alias>ProductBO</Alias>
+        <BusinessObjects isList="true" count="0" />
+        <Category>ProductBO</Category>
+        <Columns isList="true" count="11">
+          <value>Column,System.String</value>
+          <value>CategoryID,System.Nullable`1[System.Int32]</value>
+          <value>Discontinued,System.Boolean</value>
+          <value>ProductID,System.Int32</value>
+          <value>ProductName,System.String</value>
+          <value>QuantityPerUnit,System.String</value>
+          <value>ReorderLevel,System.Nullable`1[System.Int16]</value>
+          <value>SupplierID,System.Nullable`1[System.Int32]</value>
+          <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+          <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+          <value>UnitsOnOrder,System.Nullable`1[System.Int16]</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Guid>2013e30f04124eb79b1174e11197691c</Guid>
+        <Name>ProductBO</Name>
+      </ProductBO>
+    </BusinessObjects>
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="0" />
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>806d4892501c48ef83c76f8273b067d9</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <ReportTitleBand1 Ref="4" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.2,7.72,0.9</ClientRectangle>
+          <Components isList="true" count="1">
+            <Image1 Ref="5" type="Image" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.6,0.1,1,0.9</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Icon>Archive</Icon>
+              <IconColor>207, 123, 121</IconColor>
+              <Margins>0,0,0,0</Margins>
+              <Name>Image1</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+            </Image1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </ReportTitleBand1>
+        <Header Ref="6" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,1.5,7.72,0.3</ClientRectangle>
+          <Components isList="true" count="9">
+            <HeaderProductBO_ProductName Ref="7" type="Text" isKey="true">
+              <Border>All;[52:28:53];1;Solid;False;4;Black;True</Border>
+              <Brush>[102:78:103]</Brush>
+              <ClientRectangle>0,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderProductBO_ProductName</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>ProductName</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderProductBO_ProductName>
+            <HeaderProductBO_ProductID Ref="8" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black;True</Border>
+              <Brush>[102:78:103]</Brush>
+              <ClientRectangle>0.9,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderProductBO_ProductID</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>ProductID</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderProductBO_ProductID>
+            <HeaderProductBO_Discontinued Ref="9" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black;True</Border>
+              <Brush>[102:78:103]</Brush>
+              <ClientRectangle>1.8,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderProductBO_Discontinued</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>Discontinued</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderProductBO_Discontinued>
+            <HeaderProductBO_QuantityPerUnit Ref="10" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black;True</Border>
+              <Brush>[102:78:103]</Brush>
+              <ClientRectangle>2.7,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderProductBO_QuantityPerUnit</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>QuantityPerUnit</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderProductBO_QuantityPerUnit>
+            <HeaderProductBO_ReorderLevel Ref="11" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black;True</Border>
+              <Brush>[102:78:103]</Brush>
+              <ClientRectangle>3.6,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderProductBO_ReorderLevel</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>ReorderLevel</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderProductBO_ReorderLevel>
+            <HeaderProductBO_UnitPrice Ref="12" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black;True</Border>
+              <Brush>[102:78:103]</Brush>
+              <ClientRectangle>4.5,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderProductBO_UnitPrice</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>UnitPrice</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderProductBO_UnitPrice>
+            <HeaderProductBO_UnitsOnOrder Ref="13" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black;True</Border>
+              <Brush>[102:78:103]</Brush>
+              <ClientRectangle>5.4,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderProductBO_UnitsOnOrder</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>UnitsOnOrder</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderProductBO_UnitsOnOrder>
+            <HeaderProductBO_UnitsInStock Ref="14" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black;True</Border>
+              <Brush>[102:78:103]</Brush>
+              <ClientRectangle>6.3,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderProductBO_UnitsInStock</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>UnitsInStock</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderProductBO_UnitsInStock>
+            <HeaderProductBO_SupplierID Ref="15" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black;True</Border>
+              <Brush>[102:78:103]</Brush>
+              <ClientRectangle>7.2,0,0.5,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderProductBO_SupplierID</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>SupplierID</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderProductBO_SupplierID>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>Header</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </Header>
+        <Data Ref="16" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid>2013e30f04124eb79b1174e11197691c</BusinessObjectGuid>
+          <ClientRectangle>0,2.2,7.72,0.3</ClientRectangle>
+          <Components isList="true" count="9">
+            <DataProductBO_ProductName Ref="17" type="Text" isKey="true">
+              <Border>Top, Left, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataProductBO_ProductName</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+              <Text>{ProductBO.ProductName}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataProductBO_ProductName>
+            <DataProductBO_ProductID Ref="18" type="Text" isKey="true">
+              <Border>Top, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.9,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataProductBO_ProductID</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+              <Text>{ProductBO.ProductID}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataProductBO_ProductID>
+            <DataProductBO_Discontinued Ref="19" type="Text" isKey="true">
+              <Border>Top, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.8,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataProductBO_Discontinued</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+              <Text>{ProductBO.Discontinued}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataProductBO_Discontinued>
+            <DataProductBO_QuantityPerUnit Ref="20" type="Text" isKey="true">
+              <Border>Top, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.7,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataProductBO_QuantityPerUnit</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+              <Text>{ProductBO.QuantityPerUnit}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataProductBO_QuantityPerUnit>
+            <DataProductBO_ReorderLevel Ref="21" type="Text" isKey="true">
+              <Border>Top, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>3.6,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataProductBO_ReorderLevel</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+              <Text>{ProductBO.ReorderLevel}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataProductBO_ReorderLevel>
+            <DataProductBO_UnitPrice Ref="22" type="Text" isKey="true">
+              <Border>Top, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>4.5,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataProductBO_UnitPrice</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+              <Text>{ProductBO.UnitPrice}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataProductBO_UnitPrice>
+            <DataProductBO_UnitsOnOrder Ref="23" type="Text" isKey="true">
+              <Border>Top, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>5.4,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataProductBO_UnitsOnOrder</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+              <Text>{ProductBO.UnitsOnOrder}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataProductBO_UnitsOnOrder>
+            <DataProductBO_UnitsInStock Ref="24" type="Text" isKey="true">
+              <Border>Top, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>6.3,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataProductBO_UnitsInStock</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+              <Text>{ProductBO.UnitsInStock}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataProductBO_UnitsInStock>
+            <DataProductBO_SupplierID Ref="25" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7.2,0,0.5,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataProductBO_SupplierID</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+              <Text>{ProductBO.SupplierID}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataProductBO_SupplierID>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName isNull="true" />
+          <EvenStyle>Anthracite_Data1_Even Style</EvenStyle>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>Data</Name>
+          <OddStyle>Anthracite_Data1_Odd Style</OddStyle>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </Data>
+        <Footer Ref="26" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.9,7.72,0.3</ClientRectangle>
+          <Components isList="true" count="9">
+            <FooterProductBO_ProductName Ref="27" type="Text" isKey="true">
+              <Border>All;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>[112:88:113]</Brush>
+              <ClientRectangle>0,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>FooterProductBO_ProductName</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </FooterProductBO_ProductName>
+            <FooterProductBO_ProductID Ref="28" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>[112:88:113]</Brush>
+              <ClientRectangle>0.9,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>FooterProductBO_ProductID</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </FooterProductBO_ProductID>
+            <FooterProductBO_Discontinued Ref="29" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>[112:88:113]</Brush>
+              <ClientRectangle>1.8,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>FooterProductBO_Discontinued</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </FooterProductBO_Discontinued>
+            <FooterProductBO_QuantityPerUnit Ref="30" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>[112:88:113]</Brush>
+              <ClientRectangle>2.7,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>FooterProductBO_QuantityPerUnit</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </FooterProductBO_QuantityPerUnit>
+            <FooterProductBO_ReorderLevel Ref="31" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>[112:88:113]</Brush>
+              <ClientRectangle>3.6,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>FooterProductBO_ReorderLevel</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </FooterProductBO_ReorderLevel>
+            <FooterProductBO_UnitPrice Ref="32" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>[112:88:113]</Brush>
+              <ClientRectangle>4.5,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>FooterProductBO_UnitPrice</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </FooterProductBO_UnitPrice>
+            <FooterProductBO_UnitsOnOrder Ref="33" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>[112:88:113]</Brush>
+              <ClientRectangle>5.4,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>FooterProductBO_UnitsOnOrder</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </FooterProductBO_UnitsOnOrder>
+            <FooterProductBO_UnitsInStock Ref="34" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>[112:88:113]</Brush>
+              <ClientRectangle>6.3,0,0.9,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>FooterProductBO_UnitsInStock</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </FooterProductBO_UnitsInStock>
+            <FooterProductBO_SupplierID Ref="35" type="Text" isKey="true">
+              <Border>Top, Right, Bottom;[52:28:53];1;Solid;False;4;Black</Border>
+              <Brush>[112:88:113]</Brush>
+              <ClientRectangle>7.2,0,0.5,0.3</ClientRectangle>
+              <ComponentStyle>Anthracite_Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>FooterProductBO_SupplierID</Name>
+              <Page isRef="3" />
+              <Parent isRef="26" />
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </FooterProductBO_SupplierID>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>Footer</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </Footer>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>4e732b11397949848815c0e800f86607</Guid>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <Name>Page1</Name>
+      <PageHeight>11</PageHeight>
+      <PageWidth>8.5</PageWidth>
+      <PaperSize>Letter</PaperSize>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>9/9/2022 12:27:03 PM</ReportChanged>
+  <ReportCreated>9/9/2022 11:55:08 AM</ReportCreated>
+  <ReportFile>C:\ws\amoozesh\c#\140102\Solution12\UI.Report\ProductReport.mrt</ReportFile>
+  <ReportGuid>d9e618b91ca44c9ab4469cc6c057f63b</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2022.1.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="12">
+    <Anthracite_Report_Title1 Ref="36" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[52:28:53];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item36 Ref="37" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>ReportTitle</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item36>
+      </Conditions>
+      <Font>Arial,14,Bold</Font>
+      <Name>Anthracite_Report_Title1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[102:78:103]</TextBrush>
+    </Anthracite_Report_Title1>
+    <Anthracite_Report_Title2 Ref="38" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[52:28:53];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item38 Ref="39" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>ReportTitle</Placement>
+          <PlacementNestedLevel>2</PlacementNestedLevel>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item38>
+      </Conditions>
+      <Font>Arial,10,Bold</Font>
+      <Name>Anthracite_Report_Title2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[102:78:103]</TextBrush>
+    </Anthracite_Report_Title2>
+    <Anthracite_Report_Summary Ref="40" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[52:28:53];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item40 Ref="41" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>ReportSummary</Placement>
+          <Type>ComponentType, Placement</Type>
+        </Item40>
+      </Conditions>
+      <Font>Arial,10,Bold</Font>
+      <Name>Anthracite_Report_Summary</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[102:78:103]</TextBrush>
+    </Anthracite_Report_Summary>
+    <Anthracite_Page_Header Ref="42" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[52:28:53];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item42 Ref="43" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>PageHeader</Placement>
+          <Type>ComponentType, Placement</Type>
+        </Item42>
+      </Conditions>
+      <Font>Arial,10</Font>
+      <Name>Anthracite_Page_Header</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[102:78:103]</TextBrush>
+    </Anthracite_Page_Header>
+    <Anthracite_Page_Footer Ref="44" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[52:28:53];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item44 Ref="45" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>PageFooter</Placement>
+          <Type>ComponentType, Placement</Type>
+        </Item44>
+      </Conditions>
+      <Font>Arial,10</Font>
+      <Name>Anthracite_Page_Footer</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[102:78:103]</TextBrush>
+    </Anthracite_Page_Footer>
+    <Anthracite_Group_Header1 Ref="46" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[52:28:53];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item46 Ref="47" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>GroupHeader</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item46>
+      </Conditions>
+      <Font>Arial,13,Bold</Font>
+      <Name>Anthracite_Group_Header1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[102:78:103]</TextBrush>
+    </Anthracite_Group_Header1>
+    <Anthracite_Group_Footer1 Ref="48" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[52:28:53];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item48 Ref="49" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>GroupFooter</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item48>
+      </Conditions>
+      <Font>Arial,13,Bold</Font>
+      <Name>Anthracite_Group_Footer1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[102:78:103]</TextBrush>
+    </Anthracite_Group_Footer1>
+    <Anthracite_Header1 Ref="50" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>All;[52:28:53];1;Solid;False;4;Black;True</Border>
+      <Brush>[102:78:103]</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item50 Ref="51" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>Header</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item50>
+      </Conditions>
+      <Font>Arial,8,Bold</Font>
+      <Name>Anthracite_Header1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>White</TextBrush>
+    </Anthracite_Header1>
+    <Anthracite_Data1 Ref="52" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>All;[52:28:53];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item52 Ref="53" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image, CheckBox</ComponentType>
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>Data</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item52>
+      </Conditions>
+      <Font>Arial,8</Font>
+      <Name>Anthracite_Data1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[0:0:0]</TextBrush>
+    </Anthracite_Data1>
+    <Anthracite_Data1_Odd_x0020_Style Ref="54" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>None;[52:28:53];1;Solid;False;4;Black</Border>
+      <Brush>[234:241:221]</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item54 Ref="55" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>DataOddStyle</Placement>
+          <Type>Placement, PlacementNestedLevel</Type>
+        </Item54>
+      </Conditions>
+      <Font>Arial,8</Font>
+      <Name>Anthracite_Data1_Odd Style</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[0:0:0]</TextBrush>
+    </Anthracite_Data1_Odd_x0020_Style>
+    <Anthracite_Data1_Even_x0020_Style Ref="56" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>None;[52:28:53];1;Solid;False;4;Black</Border>
+      <Brush>[245:248:238]</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item56 Ref="57" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>DataEvenStyle</Placement>
+          <Type>Placement, PlacementNestedLevel</Type>
+        </Item56>
+      </Conditions>
+      <Font>Arial,8</Font>
+      <Name>Anthracite_Data1_Even Style</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[0:0:0]</TextBrush>
+    </Anthracite_Data1_Even_x0020_Style>
+    <Anthracite_Footer1 Ref="58" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>None;[52:28:53];1;Solid;False;4;Black</Border>
+      <Brush>[112:88:113]</Brush>
+      <CollectionName>Anthracite</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item58 Ref="59" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>Footer</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item58>
+      </Conditions>
+      <Font>Arial,8</Font>
+      <Name>Anthracite_Footer1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[0:0:0]</TextBrush>
+    </Anthracite_Footer1>
+  </Styles>
+</StiSerializer>
