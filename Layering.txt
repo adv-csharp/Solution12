@@ -1,0 +1,15 @@
+Layering
+
+	3 layer
+	3 tier
+
+	Solution
+		projrct db - Data Access Layer - DAL
+		project business  - Business Layer - BL
+		project ui
+		
+		ui:
+			project web api
+			project react/angular
+
+	
