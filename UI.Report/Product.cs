@@ -24,5 +24,7 @@ namespace UI.Report
         public Nullable<short> UnitsOnOrder { get; set; }
         public Nullable<short> ReorderLevel { get; set; }
         public bool Discontinued { get; set; }
+    
+        public virtual Category Category { get; set; }
     }
 }

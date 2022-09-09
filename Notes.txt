@@ -4,3 +4,11 @@ Reporting
 
 	Stimulsoft	Report
 		
+
+Transaction
+	Database
+		SP, Fun -> Begin Trans, End Trans
+	C#
+		TransactionScope
+
+	
